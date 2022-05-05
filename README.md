@@ -51,7 +51,7 @@ git push -u origin master
 
 The template provides a classic python project architecture:
 - src: here are your sources
-- result_dir python files relative to data (dataset preparation for example)
+- result_dir: Outputs files
 - docs: folder where the documentation will be generated
 - test: folder for test files
 - notebooks: folder for example notebooks
