@@ -49,6 +49,8 @@ git push -u origin master
 ```
 ## Architecture
 
+![Folder structure](imgs/folder_structure.png)
+
 The template provides a classic python project architecture:
 - src: here are your sources
 - result_dir: Outputs files
