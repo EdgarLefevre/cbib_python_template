@@ -1,10 +1,16 @@
 {
     "project_name": "My New Project",
-    "main_file": "main.r",
+    "main_file": "main.py",
     "src_dir": "src",
     "results_dir": "results",
     "github_username": "EdgarLefevre",
     "author": "Edgar Lefevre",
     "year": "2022",
+    "tests": "y",
+    "docs": "y",
+    "notebooks": "y",
+    "github_actions": "y",
+    "example": "y",
     "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "test_file": "test_{{ cookiecutter.main_file|lower  }}"
 }
