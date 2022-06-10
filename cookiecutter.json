@@ -11,6 +11,6 @@
     "notebooks": "y",
     "github_actions": "y",
     "example": "y",
-    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
-    "test_file": "test_{{ cookiecutter.main_file|lower  }}"
+    "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "__test_file": "test_{{ cookiecutter.main_file|lower  }}"
 }
