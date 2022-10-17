@@ -52,7 +52,7 @@ jobs:
       - name: Check files with flake8 linter
         uses: py-actions/flake8@v2
         with:
-          ignore: "F401"
+          ignore: "F401, W503"
           max-line-length: "100"
           path: "src" # tests ??
   mypy_type_check:
